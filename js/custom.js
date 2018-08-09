@@ -129,14 +129,14 @@ $(document).ready(function () {
             },
             messages: {
                 name: {
-                    required: "This field is required",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Por favor complete este campo.",
+                    minlength: "Tu nombre debe tener al menos 2 caracteres."
                 },
                 email: {
-                    required: "This field is required"
+                    required: "Por favor complete este campo."
                 },
                 message: {
-                    required: "This field is required"
+                    required: "Por favor complete este campo."
                 }
             },
             submitHandler: function (form) {
